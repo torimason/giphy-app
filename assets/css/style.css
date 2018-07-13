@@ -1,0 +1,58 @@
+body {
+  font-family: 'Quicksand' , sans-serif;
+  background: whitesmoke;
+  font-size: 20px;
+}
+
+.rating-text{
+  font-size: 14px;
+}
+
+#gifs {
+  width: 70%;
+}
+
+.animal-item {
+  float: left;
+  padding: 10px;
+}
+
+form {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  padding: 10px;
+  margin:5px;
+  font-size: 18px;
+  color: #fff;
+  background: #79adcf;
+  border: 0;
+  border-radius: 5px;
+  font-family: "quicksand" , sans-serif;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #357eaf;
+}
+
+button.active {
+  background: #284c64;
+}
